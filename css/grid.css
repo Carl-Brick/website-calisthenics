@@ -18,18 +18,6 @@ nav {
   grid-row: 2/3;
 }
 
-/* Introduction */
-#introduction {
-  grid-column: 2/5;
-  grid-row: 4/5;
-}
-
-/* Slideshow */
-#slideshow {
-  grid-column: 2/5;
-  grid-row: 6/7;
-}
-
 /* Footer */
 .faq1 {
   grid-column: 2/3;
@@ -44,6 +32,29 @@ nav {
 .faq3 {
   grid-column: 4/5;
   grid-row: 7/8;
+}
+
+/* Main site*/
+#introduction {
+  grid-column: 2/5;
+  grid-row: 4/5;
+}
+
+#slideshow {
+  grid-column: 2/5;
+  grid-row: 6/7;
+}
+
+/* Program site */
+.progBar {
+  grid-column: 2/3;
+  grid-row: 4/5;
+  justify-self: left;
+}
+
+.program {
+  grid-column: 2/5;
+  grid-row: 6/7;
 }
 
 @media only screen and (max-width: 800px) {}

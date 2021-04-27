@@ -1,5 +1,6 @@
 //Website Calisthenics Java script
 
+//Slideshow
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -31,4 +32,9 @@ function showSlides(n) {
   }
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
+}
+
+//Programs
+function w1() {
+  document.getElementById('w2 w3 w4 w5 w6').style.visibility = 'hidden'
 }
