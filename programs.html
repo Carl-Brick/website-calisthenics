@@ -22,7 +22,6 @@
     </header>
 
     <!-- Nav -->
-    <!-- Ta bort länkarna som är onödiga, även i header -->
     <nav class="nav">
       <a href="index.html">Start</a>
       <a href="movements.html">Movements</a>
@@ -34,22 +33,53 @@
     <div class="dropdown progBar">
       <button class="dropbtn">Week</button>
       <div class="dropdown-content">
-        <button onclick="w1()">Week 1</button>
+        <!--<button onclick="w1()">Week 1</button>
         <button onclick="w2()">Week 2</button>
         <button onclick="w3()">Week 3</button>
         <button onclick="w4()">Week 4</button>
         <button onclick="w5()">Week 5</button>
-        <button onclick="w6()">Week 6</button>
+        <button onclick="w6()">Week 6</button>-->
+        <span onclick="Slides(1)">1</span>
+        <span onclick="Slides(2)">2</span>
+        <span onclick="Slides(3)">3</span>
+        <span onclick="Slides(4)">4</span>
+        <span onclick="Slides(5)">5</span>
+        <span onclick="Slides(6)">6</span>
       </div>
     </div>
 
-    <section class="program">
-      <img src="Week1.jpg" id="w1" alt="Week 1">
-      <img src="Week2.jpg" id="w2" alt="Week 2">
-      <img src="Week3.jpg" id="w3" alt="Week 3">
-      <img src="Week4.jpg" id="w4" alt="Week 4">
-      <img src="Week5.jpg" id="w5" alt="Week 5">
-      <img src="Week6.jpg" id="w6" alt="Week 6">
+
+    <!-- Slide Show -->
+    <section id="slideshow">
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+
+
+        <div class="mySlides fade">
+          <img src="img/program1.png" style="width:100%" alt="Program Week 1">
+        </div>
+        <div class="mySlides fade">
+          <img src="img/program2.png" style="width:100%" alt="Program Week 2">
+        </div>
+        <div class="mySlides fade">
+          <img src="img/program3.png" style="width:100%" alt="Program Week 3">
+        </div>
+        <div class="mySlides fade">
+          <img src="img/program4.png" style="width:100%" alt="Program Week 4">
+        </div>
+        <div class="mySlides fade">
+          <img src="img/program5.png" style="width:100%" alt="Program Week 5">
+        </div>
+        <div class="mySlides fade">
+          <img src="img/program6.png" style="width:100%" alt="Program Week 6">
+        </div>
+
+
+        <!-- Next/Previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
     </section>
 
     <!-- Footer/FAQ -->

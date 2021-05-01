@@ -9,6 +9,11 @@ function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
+// Show n Slide
+function Slides(n) {
+  showSlides(slideIndex = n);
+}
+
 // Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
