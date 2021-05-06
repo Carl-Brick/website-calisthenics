@@ -34,6 +34,21 @@ nav {
   grid-row: 7/8;
 }
 
+.faq4 {
+  grid-column: 2/3;
+  grid-row: 10/11;
+}
+
+.faq5 {
+  grid-column: 3/4;
+  grid-row: 10/11;
+}
+
+.faq6 {
+  grid-column: 4/5;
+  grid-row: 10/11;
+}
+
 /* Main site*/
 #introduction {
   grid-column: 2/5;
@@ -57,4 +72,108 @@ nav {
   grid-row: 6/7;
 }
 
-@media only screen and (max-width: 800px) {}
+/* Movements */
+.maltese {
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+
+.planche {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+
+.humanflag {
+  grid-column: 4/5;
+  grid-row: 4/5;
+}
+
+.frontlever {
+  grid-column: 4/5;
+  grid-row: 6/7;
+}
+
+.backlever {
+  grid-column: 3/4;
+  grid-row: 6/7;
+}
+
+.handstand {
+  grid-column: 2/3;
+  grid-row: 6/7;
+}
+
+/* Equipment */
+.one {
+  grid-column: 2/5;
+  grid-row: 6/7;
+}
+
+.two {
+  grid-column: 2/5;
+  grid-row: 7/8;
+}
+
+.three {
+  grid-column: 2/5;
+  grid-row: 8/9;
+}
+
+.four {
+  grid-column: 2/5;
+  grid-row: 9/10;
+}
+
+/* Media Query */
+@media only screen and (max-width: 600px) {
+
+  /* Header */
+  header {
+    grid-column: 1/6;
+    grid-row: 1/2;
+  }
+
+  nav {
+    grid-column: 1/6;
+    grid-row: 2/3;
+  }
+
+  .faq1 {
+    grid-column: 1/3;
+    grid-row: 7/8;
+  }
+
+  .faq2 {
+    grid-column: 3/4;
+    grid-row: 7/8;
+    border: none;
+  }
+
+  .faq3 {
+    grid-column: 4/6;
+    grid-row: 7/8;
+  }
+
+  .faq4 {
+    grid-column: 1/3;
+    grid-row: 10/11;
+  }
+
+  .faq5 {
+    grid-column: 3/4;
+    grid-row: 10/11;
+    border: none;
+  }
+
+  .faq6 {
+    grid-column: 4/6;
+    grid-row: 10/11;
+  }
+}
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
