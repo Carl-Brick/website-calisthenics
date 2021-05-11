@@ -93,6 +93,19 @@ p {
   text-align: center;
 }
 
+/* Equipment */
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.equipment {
+  margin: 5vw;
+}
+
 /* Slideshow */
 * {
   box-sizing: border-box
